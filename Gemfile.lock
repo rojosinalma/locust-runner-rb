@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.12.2)
+    ffi-rzmq (2.0.7)
+      ffi-rzmq-core (>= 1.0.7)
+    ffi-rzmq-core (1.0.7)
+      ffi
+    msgpack (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ffi-rzmq
+  msgpack
+
+BUNDLED WITH
+   2.1.4
