@@ -1,7 +1,5 @@
 require 'ffi-rzmq'
 require 'msgpack'
-require 'socket'
-require 'pry-byebug'
 
 host      = "tcp://localhost:5557"
 client_id = "test"
